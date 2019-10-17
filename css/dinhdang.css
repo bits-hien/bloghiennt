@@ -6,7 +6,7 @@
 
 .phanbao > div {
     background-color:whitesmoke;
-    color: indianred;
+    color: black;
     text-align: left;
     line-height: 35px;
     font-size: 15px;
@@ -16,14 +16,15 @@
     display: flex;
     flex-direction: column;
     background-color: violet;
-    width: 900px;
+    width: 800px;
+    margin-right: 16px;
 }
 
 .phantrai > div {
     background-color:darkturquoise;
     margin: 1px;
     text-align: left;
-    line-height: 15px;
+    line-height: 45px;
     font-size: 15px;
     height: 600px;
 }
@@ -33,13 +34,32 @@
     flex-direction: column;
     background-color: violet;
     width: 360px;
+    margin-top: 16px;;
 }
 
 .phanphai > div {
-    background-color:darkturquoise;
+    background-color:goldenrod;
     margin: 10px;
     text-align: left;
-    line-height: 15px;
+    line-height: 45px;
     font-size: 15px;
     height: 400px;
+}
+
+.header {
+    background-color: whitesmoke;
+    width: 1471.2px;
+    height: 180px;
+    color: black;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer {
+    background-color: whitesmoke;
+    width: 1471.2px;
+    height: 116.4px;
+    color: black;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
