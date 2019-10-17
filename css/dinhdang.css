@@ -1,0 +1,45 @@
+.phanbao {
+    display: flex;
+    align-items: stretch;
+    background-color: whitesmoke;
+}
+
+.phanbao > div {
+    background-color:whitesmoke;
+    color: indianred;
+    text-align: left;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.phantrai {
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    width: 900px;
+}
+
+.phantrai > div {
+    background-color:darkturquoise;
+    margin: 1px;
+    text-align: left;
+    line-height: 15px;
+    font-size: 15px;
+    height: 600px;
+}
+
+.phanphai {
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    width: 360px;
+}
+
+.phanphai > div {
+    background-color:darkturquoise;
+    margin: 10px;
+    text-align: left;
+    line-height: 15px;
+    font-size: 15px;
+    height: 400px;
+}
