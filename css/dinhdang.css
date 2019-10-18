@@ -1,10 +1,10 @@
-.phanbao {
+.style-content {
     display: flex;
     align-items: stretch;
     background-color: whitesmoke;
 }
 
-.phanbao > div {
+.style-content > div {
     background-color:whitesmoke;
     color: black;
     text-align: left;
@@ -12,24 +12,25 @@
     font-size: 15px;
 }
 
-.phantrai {
+.style-left {
     display: flex;
     flex-direction: column;
     background-color: violet;
     width: 800px;
-    margin-right: 16px;
+    margin: 16px;
 }
 
-.phantrai > div {
+.style-left > div {
     background-color:darkturquoise;
     margin: 1px;
     text-align: left;
-    line-height: 45px;
+    line-height: 25px;
     font-size: 15px;
     height: 600px;
+    margin: 16px;
 }
 
-.phanphai {
+.style-right {
     display: flex;
     flex-direction: column;
     background-color: violet;
@@ -37,11 +38,11 @@
     margin-top: 16px;;
 }
 
-.phanphai > div {
+.style-right > div {
     background-color:goldenrod;
     margin: 10px;
     text-align: left;
-    line-height: 45px;
+    line-height: 25px;
     font-size: 15px;
     height: 400px;
 }
@@ -49,7 +50,7 @@
 .header {
     background-color: whitesmoke;
     width: 1471.2px;
-    height: 180px;
+    height: 120px;
     color: black;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -58,8 +59,93 @@
 .footer {
     background-color: whitesmoke;
     width: 1471.2px;
-    height: 116.4px;
+    height: 80px;
     color: black;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+.read-comment {
+    background-color: darkturquoise;
+    display: flex;
+}
+
+.read-comment div {
+    width: 50%;
+    height: 50px;
+}
+
+.comment {
+    width: 24px;
+    height: 22.4px;
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.comment-right {
+    text-align: right;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    color: brown;
+}
+
+.button {
+    width: 149px;
+    height: 47px;
+    padding: 10px;
+    background-color: burlywood;
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.read-more {
+    margin: 10px;
+}
+
+.style-right2 {
+    display: flex;
+    flex-direction: column;
+    width: 427.74px;
+    margin: 16px;
+}
+
+.style-right2 > div {
+    background-color:#ccc;
+    text-align: left;
+    line-height: 25px;
+    font-size: 15px;
+    height: 80px;
+    border: black ;
+    border: 1px;
+    margin: 5px;
+}
+
+.img > img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 16px;
+    vertical-align: middle;
+    padding: 8px;
+    
+}
+.img > p {
+
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+   margin-top: 4px;
+}
+
+.style-right2 > div :hover {
+    background-color: greenyellow;
+}
+
