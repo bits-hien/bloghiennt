@@ -1,11 +1,11 @@
 .style-content {
     display: flex;
     align-items: stretch;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .style-content > div {
-    background-color:whitesmoke;
+    background-color:white;
     color: black;
     text-align: left;
     line-height: 35px;
@@ -17,11 +17,11 @@
     flex-direction: column;
     background-color: violet;
     width: 800px;
-    margin: 16px;
+    margin: 10px;
 }
 
 .style-left > div {
-    background-color:darkturquoise;
+    background-color:white;
     margin: 1px;
     text-align: left;
     line-height: 25px;
@@ -39,16 +39,15 @@
 }
 
 .style-right > div {
-    background-color:goldenrod;
+    background-color: white;
     margin: 10px;
     text-align: left;
     line-height: 25px;
     font-size: 15px;
-    height: 400px;
 }
 
 .header {
-    background-color: whitesmoke;
+    background-color: white;
     width: 1471.2px;
     height: 120px;
     color: black;
@@ -57,7 +56,7 @@
 }
 
 .footer {
-    background-color: whitesmoke;
+    background-color: grey;
     width: 1471.2px;
     height: 80px;
     color: black;
@@ -66,7 +65,7 @@
 }
 
 .read-comment {
-    background-color: darkturquoise;
+    background-color: white;
     display: flex;
 }
 
@@ -101,7 +100,7 @@
     width: 149px;
     height: 47px;
     padding: 10px;
-    background-color: burlywood;
+    background-color: whitesmoke;
     font-size: 15px;
     margin-left: 16px;
 }
@@ -114,11 +113,12 @@
     display: flex;
     flex-direction: column;
     width: 427.74px;
-    margin: 16px;
+    margin-top;: 16px;
+    height: 450px;
 }
 
 .style-right2 > div {
-    background-color:#ccc;
+    background-color:white;
     text-align: left;
     line-height: 25px;
     font-size: 15px;
@@ -145,7 +145,53 @@
    margin-top: 4px;
 }
 
-.style-right2 > div :hover {
-    background-color: greenyellow;
+.style-right2 :hover {
+    background-color: gainsboro;
 }
+
+.style-right3 {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    margin: 10px;
+    height: 220px;
+}
+
+.style-right3 > div {
+    flex-direction: column;
+}
+ .style-right3-1 {
+     background-color: gainsboro;
+     height: 220px;
+     margin: 16px;
+     text-align: left;
+ }
+
+ .style-right3-1 > span {
+    font-size: 30px;
+    text-align: center;
+    margin: 16px;
+ }
+
+ .style-right3-2 {
+     background-color: white;
+     margin: 10px;
+ }
+
+ .style-right3-3 > span {
+     background: whitesmoke;
+     color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+     text-align: center;
+     font-size: 20px;
+     line-height: 30px;
+
+ }
+
+ h3 > span {
+     color: gray;
+ }
+
+ 
 
